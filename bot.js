@@ -3,7 +3,7 @@ const crypto = require("crypto");
 const fs = require("fs");
 
 
-const TOKEN = "8953648378:AAEU3jx3oOAAyAkMX_ErB04CMngKVUP3H-g";
+const TOKEN = process.env.BOT_TOKEN;
 
 
 const bot = new TelegramBot(
